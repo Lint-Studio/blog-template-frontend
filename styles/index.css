@@ -1,0 +1,21 @@
+@import "common.css"; /* Using a string */
+
+body {
+  background-color: wheat;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.post_card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 24px ;
+  padding: 8px;
+  transition: 200ms;
+}
+
+.post_card:hover{
+    transform: scale(1.1);
+}
